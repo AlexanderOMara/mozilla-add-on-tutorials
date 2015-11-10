@@ -1,0 +1,15 @@
+{
+  "title": "Native Dev Panel",
+  "name": "native-dev-panel",
+  "version": "0.0.1",
+  "description": "An add-on developer panel with a native look and feel.",
+  "main": "lib/main.js",
+  "author": "Alexander O'Mara",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MPL-2.0",
+  "keywords": [
+    "jetpack"
+  ]
+}

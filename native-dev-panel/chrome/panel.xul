@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/css" href="chrome://browser/skin/"?>
+<?xml-stylesheet type="text/css" href="chrome://devtools/content/shared/widgets/widgets.css"?>
+<?xml-stylesheet type="text/css" href="chrome://devtools/skin/themes/common.css"?>
+<?xml-stylesheet type="text/css" href="chrome://devtools/skin/themes/widgets.css"?>
+
+<?xml-stylesheet type="text/css" href="panel.css"?>
+
+<?xul-overlay href="chrome://global/content/editMenuOverlay.xul"?>
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/javascript;version=1.8" src="chrome://devtools/content/shared/theme-switching.js"/>
+	<script type="text/javascript" src="chrome://global/content/globalOverlay.js"/>
+
+	<commandset id="editMenuCommands"/>
+
+	<box flex="1" class="devtools-responsive-container theme-body">
+		<vbox flex="1" class="devtools-main-content">
+			<hbox align="center">
+				<label value="" data-l10n="value=panel.instructions"></label>
+			</hbox>
+			<hbox align="center">
+				<button
+					id="panel-button"
+					class="devtools-toolbarbutton"
+					standalone="true"
+					label="" data-l10n="label=panel.button"
+				></button>
+			</hbox>
+			<hbox align="center">
+				<label id="panel-response" value=""></label>
+			</hbox>
+		</vbox>
+	</box>
+
+</window>

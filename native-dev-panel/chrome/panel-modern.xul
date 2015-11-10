@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/css" href="chrome://browser/skin/"?>
+<?xml-stylesheet type="text/css" href="chrome://devtools/content/shared/widgets/widgets.css"?>
+<?xml-stylesheet type="text/css" href="chrome://devtools/skin/themes/common.css"?>
+<?xml-stylesheet type="text/css" href="chrome://devtools/skin/themes/widgets.css"?>
+
+<?xul-overlay href="chrome://global/content/editMenuOverlay.xul"?>
+<?xul-overlay href="panel-overlay.xul"?>
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/javascript;version=1.8" src="chrome://devtools/content/shared/theme-switching.js"/>
+	<script type="text/javascript" src="chrome://global/content/globalOverlay.js"/>
+</window>
